@@ -7,7 +7,7 @@ routes:
 
 collections:
   /:
-    permalink: /{slug}/
+    permalink: /post/{slug}/
     template: index
 
 taxonomies:
