@@ -5,10 +5,6 @@ routes:
   /account/: members/account
   /upgrade/: members/upgrade
 
-  /project/beautiful-trip/:
-    template: project
-    data: page.beautiful-trip
-
 collections:
   /:
     permalink: /post/{slug}/
