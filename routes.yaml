@@ -9,6 +9,9 @@ collections:
   /:
     permalink: /post/{slug}/
     template: index
+  /projects/:
+    permalink: /project/{slug}/
+    template: project
 
 taxonomies:
   tag: /tag/{slug}/
